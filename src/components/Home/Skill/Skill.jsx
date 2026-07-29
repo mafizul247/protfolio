@@ -94,13 +94,13 @@ const SkillCard = ({ logo, label }) => (
                 alt={label}
             />
         )}
-        <h3 className='text-sm sm:text-lg font-bold text-gray-700 text-center truncate'>{label}</h3>
+        <p className='text-sm sm:text-lg font-bold text-gray-700 text-center truncate'>{label}</p>
     </div>
 );
 
 const Skill = () => {
     return (
-        <div id='skill' className='mx-4 md:mx-16 bg-slate-50 shadow-lg px-4 py-12 md:p-12'>
+        <section id='skill' className='mx-4 md:mx-16 bg-slate-50 shadow-lg px-4 py-12 md:p-12'>
             <h2 className='text-3xl font-bold text-gray-800 text-center mb-12'>Skill</h2>
             {skillGroups.map((group) => (
                 <div key={group.title} className='mb-8 last:mb-0'>
@@ -114,7 +114,7 @@ const Skill = () => {
                     </div>
                 </div>
             ))}
-        </div>
+        </section>
     );
 };
 

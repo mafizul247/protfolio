@@ -18,9 +18,10 @@ const experiences = [
     },
 ];
 
+
 const Experience = () => {
     return (
-        <div id='experience' className='mx-4 md:mx-16 bg-slate-100 shadow-lg px-4 py-12 md:p-12'>
+        <section id='experience' className='mx-4 md:mx-16 bg-slate-100 shadow-lg px-4 py-12 md:p-12'>
             <h2 className='text-3xl font-bold text-gray-800 text-center mb-12'>Experience</h2>
             <div className='max-w-3xl mx-auto space-y-6'>
                 {experiences.map((exp, index) => (
@@ -46,7 +47,7 @@ const Experience = () => {
                     </div>
                 ))}
             </div>
-        </div>
+        </section>
     );
 };
 

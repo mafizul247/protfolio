@@ -37,7 +37,7 @@ const projects = [
 
 const Project = () => {
     return (
-        <div id='project' className='mx-4 md:mx-16 bg-lime-50 shadow-lg px-4 py-12 md:p-12'>
+        <section id='project' className='mx-4 md:mx-16 bg-lime-50 shadow-lg px-4 py-12 md:p-12'>
             <h2 className='text-3xl font-bold text-gray-800 text-center mb-12'>Project</h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
                 {projects.map((project, index) => (
@@ -82,7 +82,7 @@ const Project = () => {
                     </div>
                 ))}
             </div>
-        </div>
+        </section>
     );
 };
 

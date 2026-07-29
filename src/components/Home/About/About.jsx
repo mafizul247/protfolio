@@ -1,14 +1,13 @@
 import React from 'react';
 import { FaDownload } from 'react-icons/fa';
 import { Link } from 'react-scroll';
-
 import resume from './../../../assets/resume/CV_of_Mafizul_Islam.pdf'
 import image from './../../../assets/images/about-image.jpg'
 import Social from '../../Social/Social';
 
 const About = () => {
     return (
-        <div id='about' className='mx-4 md:mx-16 bg-lime-50 shadow-lg px-4 py-12 md:p-12 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center'>
+        <section id='about' className='mx-4 md:mx-16 bg-lime-50 shadow-lg px-4 py-12 md:p-12 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center'>
             <div className='order-2 md:order-1 flex justify-center md:justify-start'>
                 <img className='rounded-full w-48 h-48 sm:w-64 sm:h-64 md:w-full md:h-auto object-cover shadow-md' src={image} alt='Mafizul Islam' />
             </div>
@@ -39,7 +38,7 @@ const About = () => {
                 </div>
                 <Social />
             </div>
-        </div>
+        </section>
     );
 };
 
