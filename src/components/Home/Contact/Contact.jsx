@@ -101,9 +101,9 @@ const Contact = () => {
                         <a href="https://github.com/mafizul247"><img className='h-10 w-10 sm:h-12 sm:w-12 border-2 border-gray-100 p-2 rounded-full hover:bg-yellow-500 hover:border-yellow-600 transition-colors' src={github} alt='Github' /></a>
                         <a href="https://www.linkedin.com/in/mafizul-islam-mern/"><img className='h-10 w-10 sm:h-12 sm:w-12 border-2 border-gray-100 p-2 rounded-full hover:bg-yellow-500 hover:border-yellow-600 transition-colors' src={linkedin} alt='LinkeDin' /></a>
                         {/* <a href="https://www.facebook.com/mafizul.islam.john/"><img className='h-10 w-10 sm:h-12 sm:w-12 border-2 border-gray-100 p-2 rounded-full hover:bg-yellow-500 hover:border-yellow-600 transition-colors' src={facebook} alt='Facebook' /></a> */}
-                        <a href="mailto:mafizul247@gmail.com"><img className='h-10 w-10 sm:h-12 sm:w-12 border-2 border-gray-100 p-2 rounded-full hover:bg-yellow-500 hover:border-yellow-600 transition-colors' src={email} alt='Email' /></a>
+                        <a href="mailto:mafizul24h@gmail.com"><img className='h-10 w-10 sm:h-12 sm:w-12 border-2 border-gray-100 p-2 rounded-full hover:bg-yellow-500 hover:border-yellow-600 transition-colors' src={email} alt='Email' /></a>
                         <a href="tel:+8801912007697"><img className='h-10 w-10 sm:h-12 sm:w-12 border-2 border-gray-100 p-2 rounded-full hover:bg-yellow-500 hover:border-yellow-600 transition-colors' src={phone} alt='Phone' /></a>
-                        <a href="https://wa.me/+8801711337820"><img className='h-10 w-10 sm:h-12 sm:w-12 border-2 border-gray-100 p-2 rounded-full hover:bg-yellow-500 hover:border-yellow-600 transition-colors' src={whatsApp} alt='WhatsApp' /></a>
+                        <a href="https://wa.me/+8801912007697"><img className='h-10 w-10 sm:h-12 sm:w-12 border-2 border-gray-100 p-2 rounded-full hover:bg-yellow-500 hover:border-yellow-600 transition-colors' src={whatsApp} alt='WhatsApp' /></a>
                     </div>
                     {/* <Social /> */}
                 </div>
